@@ -159,7 +159,7 @@ function playRandomSound() {
 };
 
 function getRandomNumber() {
-    var randomNumber = myfunction();
+    var randomNumber;
     if (usedSounds.length >= sounds.length) {
         // We have used all the numbers
         usedSounds = [];
