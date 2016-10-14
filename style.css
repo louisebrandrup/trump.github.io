@@ -1,0 +1,186 @@
+    @import 'https://fonts.googleapis.com/css?family=Montserrat';
+body {
+    background-image: url('images/grunge-bg.jpg');
+    background: #2f4156;
+    background: -webkit-linear-gradient(-90deg, #2f4156, #2c384b);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #2f4156, #2c384b);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #2f4156, #2c384b);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #2f4156, #2c384b);
+    /* Standard syntax */
+    background-size: cover;
+    font-family: Montserrat, helvetica, arial, sans-serif;
+    margin: 0;
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    padding: 12px;
+    display: inline;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.quotations {
+  font-size: 100px;
+  color: #ce222f;
+  max-height: 26px;
+  position: absolute;
+  padding-left: 18px;
+  padding-top: 142px;
+}
+
+#quote {
+  max-width: 370px;
+  position: absolute;
+  padding-left: 760px;
+  padding-top: 120px;
+}
+
+#topbar-content {
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    display: inline;
+    max-width: 30px;
+}
+
+#topbar {
+    background: #d52736;
+    background: -webkit-linear-gradient(-90deg, #ca202c, #e32f41);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #ca202c, #e32f41);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #ca202c, #e32f41);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #ca202c, #e32f41);
+    /* Standard syntax */
+}
+
+#trump-img {
+    max-height: 700px;
+    z-index: 1;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#trump-mouth {
+    height: 700px;
+    z-index: 2;
+    position: relative;
+}
+
+.mouthmoving {
+    -webkit-animation-name: example;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.4s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 100;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse;
+    /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 0.4s;
+    animation-iteration-count: 100;
+    animation-direction: reverse;
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes example {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+        17% {
+            left: 3px;
+            top: 15px;
+        }
+        30% {
+            left: 0px;
+            top: 0px;
+        }
+        40% {
+            left: 2px;
+            top: 10px;
+        }
+        57% {
+            left: 0px;
+            top: 0px;
+        }
+        85% {
+            left: 3px;
+            top: 15px;
+        }
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+}
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 3px;
+        top: 15px;
+    }
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+    75% {
+        left: 3px;
+        top: 15px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+
+}
+
+
+    .loader {
+    	position: fixed;
+    	left: 0px;
+    	top: 0px;
+    	width: 100%;
+    	height: 100%;
+    	z-index: 9999;
+    	background: url('images/trumpload.gif') 50% 50% no-repeat rgb(47,65,86);
+    }
