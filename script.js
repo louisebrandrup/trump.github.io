@@ -4,62 +4,73 @@ var sounds = [{
             "file": "audio/trumpbeingtrump1.mp3",
             "text": "Hello...Hello? Can I get some water????...",
             "length": 3000,
-            "location.hash": "quote1";
+            "window.location.hash": "quote1";
         }, {
             "file": "audio/trumpbeingtrump2.mp3",
             "text": "Bing, bing, bing...",
             "length": 2000,
-            "location.hash": "quote2";
+            "window.location.hash": "quote2";
         }, {
             "file": "audio/trumpbeingtrump3.mp3",
             "text": "Bing, bing, bong, bong, bing...",
             "length": 2000,
-            "location.hash": "quote3";
+            "window.location.hash": "quote3";
         }, {
             "file": "audio/trumpbeingtrump4.mp3",
             "text": "We can't sell beef...it's peanuts!",
             "length": 3000,
-            "location.hash": "quote4";
+            "window.location.hash": "quote4";
         }, {
             "file": "audio/trumpbeingtrump5.mp3",
             "text": "I said it's ILLEGAL!",
-            "length": 1000
+            "length": 1000;
+            "window.location.hash": "quote5";
         }, {
             "file": "audio/trumpbeingtrump6.mp3",
             "text": "You have to get hit with a kumatsu tractor...",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote6";
+                    
         }, {
             "file": "audio/trumpbeingtrump8.mp3",
             "text": "I would never give up my microphone! I thought that was discusting!",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote8";
         }, {
             "file": "audio/trumpbeingtrump9.mp3",
             "text": "Terrible people...I love it.",
-            "length": 2000
+            "length": 2000;
+            "window.location.hash": "quote9";
         }, {
             "file": "audio/trumpbeingtrump11.mp3",
             "text": "Because we're going to hell!",
-            "length": 1000
+            "length": 1000;
+            "window.location.hash": "quote11";
         }, {
             "file": "audio/trumpbeingtrump12.mp3",
             "text": "Uhmm...we'll do something. We'll go to sleep first.",
-            "length": 2000
+            "length": 2000;
+            "window.location.hash": "quote12";
         }, {
             "file": "audio/trumpbeingtrump13.mp3",
             "text": "Our country is going to hell.",
-            "length": 1000
+            "length": 1000;
+            "window.location.hash": "quote13";
         }, {
             "file": "audio/trumpbeingtrump14.mp3",
             "text": "I beat the people from China, I win!",
-            "length": 2000
+            "length": 2000;
+            "window.location.hash": "quote14";
         }, {
             "file": "audio/trumpbeingtrump15.mp3",
             "text": "We're tired of the nice people!",
-            "length": 1000
+            "length": 1000;
+                    "window.location.hash": "quote15";
         }, {
             "file": "audio/trumpbeingtrump16.mp3",
             "text": "Arab name, arab name, arab name",
-            "length": 1000
+            "length": 1000;
+            "window.location.hash": "quote16";
         }, {
             "file": "audio/trumpbeingtrump18.mp3",
             "text": "He's sweating like a pig! I've never saw a guy sweat like this!",
