@@ -4,22 +4,22 @@ var sounds = [{
             "file": "audio/trumpbeingtrump1.mp3",
             "text": "Hello...Hello? Can I get some water????...",
             "length": 3000,
-            "location.hash": "quote1"
+            "location.hash": "quote1";
         }, {
             "file": "audio/trumpbeingtrump2.mp3",
             "text": "Bing, bing, bing...",
             "length": 2000,
-            "location.hash": "quote2"
+            "location.hash": "quote2";
         }, {
             "file": "audio/trumpbeingtrump3.mp3",
             "text": "Bing, bing, bong, bong, bing...",
             "length": 2000,
-            "location.hash": "quote3"
+            "location.hash": "quote3";
         }, {
             "file": "audio/trumpbeingtrump4.mp3",
             "text": "We can't sell beef...it's peanuts!",
             "length": 3000,
-            "location.hash": "quote4"
+            "location.hash": "quote4";
         }, {
             "file": "audio/trumpbeingtrump5.mp3",
             "text": "I said it's ILLEGAL!",
