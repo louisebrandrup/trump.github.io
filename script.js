@@ -63,63 +63,78 @@ var sounds = [{
         }, {
             "file": "audio/trumpbeingtrump18.mp3",
             "text": "He's sweating like a pig! I've never saw a guy sweat like this!",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote18";
         }, {
             "file": "audio/trumpbeingtrump19.mp3",
             "text": "He wants to play golf! I play golf, i kill him at golf!",
-            "length": 2000
+            "length": 2000;
+            "window.location.hash": "quote19";
         }, {
             "file": "audio/trumpbeingtrump20.mp3",
             "text": "Bing, bing, bing, right!?",
-            "length": 1000
+            "length": 1000;
+            "window.location.hash": "quote20";
         }, {
             "file": "audio/trumpbeingtrump21.mp3",
             "text": "Oy, oy, oyee...",
-            "length": 1000
+            "length": 1000;
+            "window.location.hash": "quote21";
         }, {
             "file": "audio/trumpbeingtrump22.mp3",
             "text": "I will take care of women, I respect women. I will take care of women.",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote22";
         }, {
             "file": "audio/trumpbeingtrump23.mp3",
             "text": "You know, you could see there where blood coming out of her eyes...uh... blood coming out of her...wherever.",
-            "length": 5000
+            "length": 5000;
+            "window.location.hash": "quote23";
         }, {
             "file": "audio/trumpbeingtrump24.mp3",
             "text": "He put glasses on so people will think he is smart!",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote24";
         }, {
             "file": "audio/trumpbeingtrump26.mp3",
             "text": "Rick Perry should have to have an IQ-test!",
-            "length": 2500
+            "length": 2500;
+            "window.location.hash": "quote26";
         }, {
             "file": "audio/trumpbeingtrump27.mp3",
             "text": "I've said that if Ivanka weren't my daughter, perhaps I'd be dating her.",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote27";
         }, {
             "file": "audio/trumpbeingtrump28.mp3",
             "text": "And I watched our police and our firemen, down on 7/11, down at the World Trade Center, right after it came down.",
-            "length": 6000
+            "length": 6000;
+            "window.location.hash": "quote28";
         }, {
             "file": "audio/trumpbeingtrump29.mp3",
             "text": "Grab them by the pussy.",
-            "length": 1500
+            "length": 1500;
+            "window.location.hash": "quote29";
         }, {
             "file": "audio/trumpbeingtrump30.mp3",
             "text": "I tend to like beautiful women more than unattractive women, I don't know maybe that makes me bad.",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote30";
         }, {
             "file": "audio/trumpbeingtrump31.mp3",
             "text": "Uaaah, I don't know what I said AAH, I don't remember!",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote31";
         }, {
             "file": "audio/trumpbeingtrump32.mp3",
             "text": "He's going like I don't remember AHH, the old baby! That's what I said!",
-            "length": 3000
+            "length": 3000;
+            "window.location.hash": "quote32";
         }, {
             "file": "audio/trumpbeingtrump33.mp3",
             "text": "I'd call president Obama and Hillary Clinton the founders of ISIS, they're the founders.",
-            "length": 5000
+            "length": 5000;
+            "window.location.hash": "quote33";
         }
     ];
 
@@ -144,7 +159,7 @@ function playRandomSound() {
 };
 
 function getRandomNumber() {
-    var randomNumber;
+    var randomNumber = myfunction();
     if (usedSounds.length >= sounds.length) {
         // We have used all the numbers
         usedSounds = [];
@@ -177,6 +192,9 @@ function contains(a, obj) {
 }
 
 function myFunction() {
-    var x = "The anchor part is now: " + location.hash;
+    var x = "The anchor part is now: " + window.location.hash;
     document.getElementById("demo").innerHTML = x;
 }
+
+console.log(x);
+
